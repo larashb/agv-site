@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="stylesheet.css"
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+		<title>Mundo Pet</title>
+    </head>
+
+    <body>
+        <header>
+			<div class="caixa">
+				<h1><img src="assets/logo.png" alt="logo" height="250" width="250"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<h1>Contato</h1>
+
+		<p>Você pode nos contatar para agendar uma visita a qualquer momento! <br> Assim que um atentente estiver disponível, ele irá te chamar seguindo os dados fornecidos. <br> Nosso horário de atendimento segue da segunda-feira à sexta-feira, das 08h00 às 18h00.</p>
+
+		<form action="/formulario-contato" method="post">
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="texto" id="nome" name="nome_usuario">
+			</div>
+			<div>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email_usuario">
+			</div>
+			<div>
+				<label for="texto">Texto:</label>
+				<textarea id="texto" name="texto_usuario"></textarea>
+			</div>
+		</form>
+    </body>
+
+</html>
